@@ -23,11 +23,11 @@ lógicos para ganar flexibilidad y poder redimensionar el espacio sin reiniciar 
     |  Precio | Mayor  |  Menor |
     |  Eficiencia | Mayor  |  Menor |
 
-  - **RAID0**: no duplica datos, solo reparte la información entre los diferentes discos para acelerar la lectura/escritura
+  - **RAID0**: no duplica datos, solo reparte la información entre los diferentes discos para acelerar la lectura/escritura.
   - **RAID1**: Crea copias exactas en los diferentes discos para aumentar la
-redundancia de datos y por tanto la seguridad
+redundancia de datos y por tanto la seguridad.
   - **RAID5**: Divide los datos a nivel de bloque para obtener y almacenar la paridad
 para detectar y corregir errores. Tiene baja redundancia y necesita 3 discos
 como mínimo para poder implementarse.
   - **RAID6**: Funciona igual que el 5 pero genera bloques de paridad duplicados y los distribuye entre todos los discos para una mayor seguridad.
-- **MBR**: Mates Boot Record, registro de arranque principal, conocido también.
+- **MBR**: Master Boot Record, registro de arranque principal.
