@@ -15,6 +15,7 @@ del SO anfitrión donde se esta ejecutando la máquina virtual.
 - **LVM**: administrador de volúmenes lógicos de Linux. Nos permite crear volúmenes
 lógicos para ganar flexibilidad y poder redimensionar el espacio sin reiniciar siquiera.
 - **RAID**: redundant array of independent disks. Es un sistema de datos con multiples unidades entre las cuales distribuye y replica los datos. Un raid puede estar implementado en hardware o software.
+<center>
 
 |   |  HW |  SF |
 |---|:-:|:-:|
@@ -23,7 +24,7 @@ lógicos para ganar flexibilidad y poder redimensionar el espacio sin reiniciar 
 |  Precio | Mayor  |  Menor |
 |  Eficiencia | Mayor  |  Menor |
 
-
+</center>
 
 
 HW SF
