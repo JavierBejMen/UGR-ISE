@@ -16,12 +16,12 @@ del SO anfitrión donde se esta ejecutando la máquina virtual.
 lógicos para ganar flexibilidad y poder redimensionar el espacio sin reiniciar siquiera.
 - **RAID**: redundant array of independent disks. Es un sistema de datos con multiples unidades entre las cuales distribuye y replica los datos. Un raid puede estar implementado en hardware o software.
 
-  |   |  HW |  SF |
-  |---|:-:|:-:|
-  | Expansibilidad  | Menor  | Mayor  |
-  | Bug/Virus  | Menor  |  Mayor |
-  |  Precio | Mayor  |  Menor |
-  |  Eficiencia | Mayor  |  Menor |
+    |   |  HW |  SF |
+    |---|:-:|:-:|
+    | Expansibilidad  | Menor  | Mayor  |
+    | Bug/Virus  | Menor  |  Mayor |
+    |  Precio | Mayor  |  Menor |
+    |  Eficiencia | Mayor  |  Menor |
 
   - **RAID0**: no duplica datos, solo reparte la información entre los diferentes discos para acelerar la lectura/escritura
   - **RAID1**: Crea copias exactas en los diferentes discos para aumentar la
